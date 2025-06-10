@@ -1,0 +1,26 @@
+There should be tests here, but I'm running out of time, so I'm just going to put some manual tests here.
+
+
+
+TEST CASE 1: Basic working example
+
+Input: 1, 4, (sort 1), 27, (sort all)
+Output: Site has bank: (empty), odds: [1, 27], evens: [4]
+
+Test CASE 2: Negatives work
+Input: -1, (sort all)
+Output: Site has bank: (empty), odds: [-1], evens: (empty)
+
+TEST CASE 3: Strings don't work
+Input: a, (sort 1)
+Output: Site has bank: (empty), odds: (empty), evens: (empty)
+    Site ALSO sends alert describing error
+
+TEST CASE 4: Whole numbers only
+Input: 3.14159, (sort 1)
+Output: Site has bank: (empty), odds: (empty), evens: (empty)
+    Site ALSO sends alert describing error
+
+TEST CASE 5: All sorted nums are unique (There was no specification for whether we allow repeated nums or not so we use treesets for auto-sorting :D)
+Input: 1, 1, 1, 1, (sort all)
+Output: Site has bank: (empty), odds: [1], evens: (empty)
