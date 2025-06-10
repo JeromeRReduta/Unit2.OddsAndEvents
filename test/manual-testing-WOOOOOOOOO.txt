@@ -20,3 +20,7 @@ TEST CASE 4: Whole numbers only
 Input: 3.14159, (sort 1)
 Output: Site has bank: (empty), odds: (empty), evens: (empty)
     Site ALSO sends alert describing error
+
+TEST CASE 5: All sorted nums are unique (There was no specification for whether we allow repeated nums or not so we use treesets for auto-sorting :D)
+Input: 1, 1, 1, 1, (sort all)
+Output: Site has bank: (empty), odds: [1], evens: (empty)
